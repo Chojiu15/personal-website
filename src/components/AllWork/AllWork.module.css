@@ -1,0 +1,174 @@
+.AllWork {
+  height: 100%;
+  width: 100%;
+}
+.Container {
+  width: 80%;
+  margin: 0 auto;
+}
+.Title {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Title h1 {
+  color: wheat;
+  font-family: bold;
+  font-size: 7rem;
+  letter-spacing: 0.5rem;
+  margin: 2rem 0rem;
+}
+.PresentedWork {
+  display: flex;
+  flex-direction: row;
+}
+
+.Card {
+  width: 100%;
+  margin-right: 5rem;
+}
+.Card img {
+  width: 100%;
+}
+.InsideMap {
+  padding: 2rem;
+}
+
+.Card p {
+  font-family: Light;
+  color: white;
+  font-size: 1.4rem;
+  margin: 1rem 0rem;
+}
+.InsideMap a {
+  color: wheat;
+  text-decoration: none;
+  font-family: Bold;
+  font-size: 1.4rem;
+  margin-right: 1rem;
+}
+.paginationBttns {
+  width: 80%;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  margin: 5rem 0rem;
+}
+
+.previousBttn,
+.nextBttn,
+.paginationActive,
+.paginationDisabled,
+.pageClassName {
+  color: wheat;
+  font-family: Regular;
+  font-size: 1.4rem;
+}
+.paginationActive,
+.pageLinkClassName,
+.previousBttn,
+.nextBttn {
+  background-color: wheat;
+  color: black;
+  padding: 0.4rem 1rem;
+  margin: 0 0.1rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px),
+  (min-width: 481px) and (max-width: 767px) and (orientation: landscape),
+  (min-width: 768px) and (max-width: 1024px) and (orientation: landscape),
+  (min-width: 768px) and (max-width: 1024px) {
+  .AllWork {
+    height: 100%;
+    width: 100vw !important;
+    border: 1px solid white;
+  }
+  .Container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .Title {
+    height: 20vh;
+  }
+  .Title h1 {
+    color: wheat;
+    font-family: bold;
+    font-size: 5rem;
+    letter-spacing: 0rem;
+    margin: 2rem 0rem;
+  }
+  .PresentedWork {
+    display: block;
+    flex-direction: row;
+  }
+
+  .Card {
+    width: 100%;
+    margin: 10px 0px !important;
+  }
+  .Card img {
+    width: 80%;
+  }
+  .InsideMap {
+    padding: 0rem !important;
+  }
+
+  .Card p {
+    font-family: Light;
+    color: white;
+    font-size: 1.4rem;
+    margin: 1rem 0rem;
+  }
+  .InsideMap a {
+    color: wheat;
+    text-decoration: none;
+    font-family: Bold;
+    font-size: 1.4rem;
+    margin-right: 1rem;
+  }
+  .paginationBttns {
+    width: 100%;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    margin: 5rem 0rem;
+  }
+
+  .previousBttn,
+  .nextBttn,
+  .paginationActive,
+  .paginationDisabled,
+  .pageClassName {
+    color: wheat;
+    font-family: Regular;
+    font-size: 1.4rem;
+  }
+  .paginationActive,
+  .pageLinkClassName,
+  .previousBttn,
+  .nextBttn {
+    background-color: wheat;
+    color: black;
+    padding: 0.4rem 1rem;
+    margin: 0 0.1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Title h1 {
+    font-size: 5rem;
+    letter-spacing: 0rem;
+  }
+  .InsideContact {
+    margin: 5rem 0rem;
+    display: block;
+  }
+
+  .InsideForm {
+    width: 100%;
+  }
+  .Message {
+    width: 100%;
+    margin: 3rem 0rem;
+  }
+}

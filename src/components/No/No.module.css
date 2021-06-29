@@ -1,0 +1,15 @@
+.NOT {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.NOT h1 {
+  font-size: 10rem;
+  font-family: Bold;
+  color: white;
+}
+.NOT small {
+  color: wheat;
+}

@@ -1,0 +1,98 @@
+.Contact {
+  width: 100%;
+  height: 100%;
+  padding: 5rem 0rem;
+}
+.Container {
+  width: 80%;
+  margin: 0 auto;
+}
+.Title h1 {
+  color: wheat;
+  font-family: bold;
+  font-size: 7rem;
+  letter-spacing: 0.5rem;
+  margin: 2rem 0rem;
+}
+.InsideContact {
+  margin: 5rem 0rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.InsideForm {
+  width: 50%;
+}
+.Message {
+  width: 50%;
+}
+
+.InsideContact input,
+textarea {
+  display: block;
+  width: 80%;
+  border: 1px solid white;
+  border-radius: 1px;
+  padding: 1rem 1rem;
+  outline: none;
+  margin: 2rem 0rem;
+  color: white;
+  font-family: Light;
+  font-size: 1.5rem;
+}
+.InsideContact button {
+  color: #1b1d1d;
+  border: 1px solid white;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 1px;
+  font-family: Medium;
+  cursor: pointer;
+}
+.Message p {
+  font-size: 2.1rem;
+  font-family: Regular;
+  color: white;
+  line-height: 4rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px),
+  (min-width: 481px) and (max-width: 767px) and (orientation: landscape),
+  (min-width: 768px) and (max-width: 1024px) and (orientation: landscape),
+  (min-width: 768px) and (max-width: 1024px) {
+  .Title h1 {
+    font-size: 5rem;
+    letter-spacing: 0rem;
+  }
+  .InsideContact {
+    margin: 5rem 0rem;
+    display: block;
+  }
+
+  .InsideForm {
+    width: 100%;
+  }
+  .Message {
+    width: 100%;
+    margin: 3rem 0rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Title h1 {
+    font-size: 5rem;
+    letter-spacing: 0rem;
+  }
+  .InsideContact {
+    margin: 5rem 0rem;
+    display: block;
+  }
+
+  .InsideForm {
+    width: 100%;
+  }
+  .Message {
+    width: 100%;
+    margin: 3rem 0rem;
+  }
+}

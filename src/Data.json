@@ -1,0 +1,133 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "img": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2f386663-94b3-443c-ae9d-218feab49817/Big_Sur_Safari_Mockup_%28Drag_and_drop_Update%29_%28Community%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210628%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210628T095134Z&X-Amz-Expires=86400&X-Amz-Signature=e6714336fe89235a5ce1c41b807f92d4bbbdf88aec2134ef8ddd25d1711a943e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Big_Sur_Safari_Mockup_%28Drag_and_drop_Update%29_%28Community%29.png%22",
+            "description" : "Hacker News is a social news website focusing on computer science and entrepreneurship.",
+            "Website": "https://hacker-newss.netlify.app/",
+            "GitHub": "https://github.com/joey-ammar/hacker-news",
+            "Stack": "React JS - Hooks -  API -  HTML - CSS",
+            "Dependencies": "AXIOS - NODEMON"
+        },
+        {
+            "id": 2,
+            "img": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a7e7c5e5-06e9-4dd4-bda8-4c9acb78d7cf/SpaceX.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210628%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210628T151204Z&X-Amz-Expires=86400&X-Amz-Signature=7b7ca2eaea2da094cf878b6bc25bba0fceb58db65bfe62e7c260a178455af671&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22SpaceX.png%22",
+            "description" : "Space Exploration Technologies Corp. is an American aerospace manufacturer.",
+            "Website": "https://spacex-project.vercel.app/",
+            "GitHub": "https://github.com/joey-ammar/space-x",
+            "Stack": "React JS - Class -  HTML - CSS"
+        },
+        {
+            "id": 3,
+            "img": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0604d876-78a6-44bf-a5b8-a4514e053c1b/MYBURGER.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210628%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210628T151636Z&X-Amz-Expires=86400&X-Amz-Signature=380ca3e041bb87c73c1ec83db259ad9099d9dc989a0e7335d3296a9f644bbb52&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22MYBURGER.png%22",
+            "description" : "My burger is application that allows people to add and remove ingredients in order to create a burger.",
+            "Website": "https://burger-project-ten.vercel.app/",
+            "GitHub": "https://github.com/joey-ammar/burger-project",
+            "Stack": "React JS - Class -  HTML - CSS"
+           
+        },
+        {
+            "id": 4,
+            "img": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e8773ab0-b721-42cf-a40c-443c5955950b/Calculator.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210628%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210628T152250Z&X-Amz-Expires=86400&X-Amz-Signature=ee61d56c0e6487361a4921de6c76739a3e104848eeed5a28733a7cb52ba2ddb8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Calculator.png%22",
+            "description" : "A calculator app that performs arithmetic operations on numbers and can do basic calculations",
+            "Website": "https://calculator-for-all.vercel.app/",
+            "GitHub": "https://github.com/joey-ammar/calculator-app",
+            "Stack": "React JS - Class -  HTML - CSS",
+            "Dependencies": "Math.js"
+           
+        },
+        {
+            "id": 5,
+            "img": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f06da6c4-0300-4fce-9e24-f2ca3d3424fa/Todolistpro.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210628%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210628T152459Z&X-Amz-Expires=86400&X-Amz-Signature=6ae56287efce4c12a8565d7b97dd2d5d63c21c0d55072039c538fc922ab6db3b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Todolistpro.png%22",
+            "description" : "A Todo List app that allow people to add a todo each day with the option to mark them as finished.",
+            "Website": "https://today-plan.netlify.app/",
+            "GitHub": "https://github.com/joey-ammar/TodoList",
+            "Stack": "JavaScript -  HTML - CSS"           
+        },
+        {
+            "id": 6,
+            "img": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7c9d5eb3-7349-403a-ac92-7aaa3684f939/Cylceway.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210628%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210628T152651Z&X-Amz-Expires=86400&X-Amz-Signature=b3833f9e26efe409970d7232469e0c7140a4305d5d543e577f78db6ad816a66f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Cylceway.png%22",
+            "description" : "cycle way is a website offers a lot of old, vintage, and new generation bikes. ",
+            "Website": "https://cycle-way.netlify.app/",
+            "GitHub": "https://github.com/joey-ammar/cycle_way",
+            "Stack": "JavaScript -  HTML - CSS - SASS"
+           
+        },
+        {
+            "id": 7,
+            "img": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/545bf000-4433-43c5-9135-81a286577c01/Tajampro.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210628%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210628T153002Z&X-Amz-Expires=86400&X-Amz-Signature=d89780b5a8c248ff1eaf796b349c0859f9d4ed452c2c99d57158aa828591c1c0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Tajampro.png%22",
+            "description" : "Tajam is a creative company offers design and web development services.",
+            "Website": "https://tajam-project.netlify.app/",
+            "GitHub": "https://github.com/joey-ammar/tajam_page",
+            "Stack": "JavaScript -  HTML - CSS"
+           
+        },
+        {
+            "id": 8,
+            "img": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3a22f5da-afac-4bf7-ba17-5449da698eac/Favorite_movies__project.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210628%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210628T153254Z&X-Amz-Expires=86400&X-Amz-Signature=72faea6a1e0be6db2869d4845ed57354b06d0d9b1312e85c9d3f7e39c9692590&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Favorite_movies__project.png%22",
+            "description" : "Favorite movies app allow user to share their thoughts and ranking about movies.",
+            "Website": "https://rymovies.netlify.app/",
+            "GitHub": "https://github.com/joey-ammar/Favorite-Movies",
+            "Stack": "JavaScript -  HTML - CSS"
+           
+        },
+        {
+            "id": 9,
+            "img": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ab853be6-b9d5-45f2-8983-f1aa901ef156/cashflow__project.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210628%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210628T153612Z&X-Amz-Expires=86400&X-Amz-Signature=49ff6838220ae79ff750ddd807cabd6a2e771eba3f527f94ae31930a2c2b17af&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22cashflow__project.png%22",
+            "description" : "Cashflow agency offers a new app allowing user to track their incomes and expenses.",
+            "Website": "https://cashflow.vercel.app/",
+            "GitHub": "https://github.com/joey-ammar/cashflow",
+            "Stack": "JavaScript -  HTML - CSS -sliders - animation "
+           
+        },
+        {
+            "id": 10,
+            "img": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/90e35400-fecd-4b5a-8347-180c06dfde10/Daily-journal.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210628%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210628T153832Z&X-Amz-Expires=86400&X-Amz-Signature=e618d8735abb14737a999c0e06ba8417820e4c16690a81860b9e8368cfe68a3b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Daily-journal.png%22",
+            "description" : "Write your daily journals and express your thoughts.",
+            "Website": "https://infinite-beach-73985.herokuapp.com/",
+            "GitHub": "https://github.com/joey-ammar/daily-journal",
+            "Stack": "Node.js-  HTML - CSS - Template (EJS)- JavaScript",
+            "Dependencies": "EJS - EXPRESS - NODEMON - LODASH"
+           
+        },
+        {
+            "id": 11,
+            "img": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f462eca4-6a42-4683-92fe-c2a84d267222/unsplash_project.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210628%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210628T154107Z&X-Amz-Expires=86400&X-Amz-Signature=1c587115a70fba510bc3db26d9c712afa3e8cbd1dffeb89217d9441da2f4877d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22unsplash_project.png%22",
+            "description" : "The unsplash project allow the user to search for images and download them",
+            "Website": "https://infinite-beach-73985.herokuapp.com/",
+            "GitHub": "https://github.com/joey-ammar/unsplash-clone",
+            "Stack": "React.js-  HTML - CSS - unsplash api - css semantic ui",
+            "Dependencies": "AXIOS - DOTENV "
+           
+        },
+        {
+            "id": 12,
+            "img": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2274f3dc-fb91-4563-b8d3-c690d85f4637/pokefightt.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210628%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210628T154255Z&X-Amz-Expires=86400&X-Amz-Signature=d5b975b422434e05d505ca84cffeb7136f4f5ee733f4c9b9fdc4d0f95557c597&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22pokefightt.png%22",
+            "description" : "A fun game where users can choose Pokemon's and battle with each other.",
+            "Website": "https://pokefight-workshop.netlify.app/home",
+            "GitHub": "https://github.com/MatthiasvsGitHub/pokefight-back",
+            "Stack": "React.js-  Node.js - mongo DB - JavaScript - Html - Css",
+            "Dependencies": "Axios - dotenv - mongoose - three js - Api "
+        },
+        {
+            "id": 13,
+            "img": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/47ebe6b7-7023-49c9-8d40-f880f06b1d53/Weather.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210628%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210628T154354Z&X-Amz-Expires=86400&X-Amz-Signature=d9870de153a654bb6741c63f15832cc2182f28d977e903cf721c30e7ddc323ce&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Weather.png%22",
+            "description" : "The Weather Forecast provide a national and local weather forecast for cities.",
+            "Website": "https://weather-now.vercel.app/",
+            "GitHub": "https://github.com/joey-ammar/weather-now",
+            "Stack": "React.js  - JavaScript - Html - Css",
+            "Dependencies": "Axios - dotenv  - Api"
+        },
+        {
+            "id": 14,
+            "img": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/651d2286-2b49-43a0-94f6-e77b6e093e4e/inquiyable.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210628%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210628T155207Z&X-Amz-Expires=86400&X-Amz-Signature=960e3e4711fab930a2c349264227c15ced5bedee3d30364b17f8225dfe7ff955&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22inquiyable.png%22",
+            "description" : "Test your knowledge Compete with your friends in a fun learning quiz game. ",
+            "Website": "http://www.inquizable.com/home",
+            "GitHub": "https://github.com/Inquizable-Tech-Team/inquizable_frontend",
+            "Stack": "React js - node js - PostgreSQL - Js - HTMl - CSS",
+            "Dependencies": "Axios - dotenv  - Api - React libraries"
+        }
+    ]
+
+
+}

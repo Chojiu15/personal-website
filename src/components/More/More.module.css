@@ -1,0 +1,132 @@
+.MoreWork {
+  width: 100%;
+  height: 100%;
+  padding: 5rem 0rem;
+}
+.Container {
+  width: 80%;
+  margin: 0 auto;
+}
+.Title h1 {
+  color: wheat;
+  font-family: bold;
+  font-size: 7rem;
+  letter-spacing: 0.5rem;
+  line-height: 7rem;
+  margin: 2rem 0rem;
+}
+.MoreWorkInside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.MoreWorkInside h1 {
+  color: white;
+  font-family: bold;
+}
+.MoreWorkInside p {
+  color: white;
+  font-family: Light;
+  margin: 1rem 0rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+.MoreWorkInside div {
+  width: 30%;
+}
+.MoreWorkInside img {
+  width: 100%;
+  margin: 1rem 0rem;
+}
+.MoreWorkInside span {
+  font-size: 2rem;
+}
+.Discover {
+  margin: 10rem 0rem;
+  width: 100%;
+  text-align: center;
+  height: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Discover svg {
+  color: wheat;
+  font-size: 1.1rem;
+  border: 1px dotted white;
+  border-radius: 100px;
+  padding: 10px 10px;
+}
+.Discover p {
+  margin-left: 1rem;
+  font-size: 1.6rem;
+  color: white;
+  font-family: Regular;
+}
+.Container a {
+  text-decoration: none;
+}
+
+@media (min-width: 320px) and (max-width: 480px),
+  (min-width: 481px) and (max-width: 767px) and (orientation: landscape),
+  (min-width: 768px) and (max-width: 1024px) and (orientation: landscape),
+  (min-width: 768px) and (max-width: 1024px) {
+  .Title h1 {
+    font-size: 5rem;
+    letter-spacing: 0rem;
+  }
+  .MoreWorkInside {
+    width: 100%;
+    display: block !important;
+  }
+  .MoreWorkInside h1 {
+    color: white;
+    font-family: bold;
+  }
+
+  .MoreWorkInside div {
+    width: 100%;
+  }
+
+  .Discover {
+    margin: 10rem 0rem;
+    width: 100%;
+    text-align: center;
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Title h1 {
+    font-size: 5rem;
+    letter-spacing: 0rem;
+  }
+  .MoreWorkInside {
+    width: 100%;
+    display: block !important;
+  }
+  .MoreWorkInside h1 {
+    color: white;
+    font-family: bold;
+  }
+
+  .MoreWorkInside div {
+    width: 100%;
+  }
+
+  .Discover {
+    margin: 10rem 0rem;
+    width: 100%;
+    text-align: center;
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}

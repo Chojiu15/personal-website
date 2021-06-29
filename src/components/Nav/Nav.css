@@ -1,0 +1,81 @@
+.Navbar {
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 1;
+  position: fixed;
+  height: 10vh;
+}
+.NavbarInside {
+  cursor: pointer;
+  margin-right: 30px !important;
+}
+.navBar1,
+.navBar2,
+.navBar3 {
+  width: 35px;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 6px;
+  transition: 0.4s;
+}
+.change {
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 30px !important;
+}
+.change .navBar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-40deg) translate(-8px, 6px);
+}
+
+.change .navBar2 {
+  opacity: 0 !important;
+}
+
+.change .navBar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(36deg) translate(-5px, -5px);
+}
+.NavShow {
+  overflow-y: hidden !important;
+  height: 100vh !important;
+  width: 100vw !important;
+  position: absolute;
+  top: 0 !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+}
+.Linkss {
+  height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Bold;
+}
+.Linkss a {
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 2rem 0px;
+  animation: links 2s linear;
+  color: white;
+  text-decoration: none !important;
+}
+@keyframes links {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0px);
+  }
+}

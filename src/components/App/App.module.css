@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  background-color: #1b1d1d;
+}
+html {
+  font-size: 62.5%;
+}
+@font-face {
+  font-family: "light";
+  src: url("../../Fonts/Light.ttf") format("truetype"),
+    url("../../Fonts/Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Regular";
+  src: url("../../Fonts/Regular.ttf") format("truetype"),
+    url("../../Fonts/Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Medium";
+  src: url("../../Fonts/Medium.ttf") format("truetype"),
+    url("../../Fonts/Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Black";
+  src: url("../../Fonts/Black.ttf") format("truetype"),
+    url("../../Fonts/Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Bold";
+  src: url("../../Fonts/Bold.ttf") format("truetype"),
+    url("../../Fonts/Bold.ttf") format("truetype");
+}

@@ -1,0 +1,100 @@
+.Showcase {
+  height: 100vh;
+  width: 100%;
+}
+.Container {
+  width: 80%;
+  margin: 0 auto;
+}
+.ShowcaseInside {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Name {
+  height: 50vh;
+  display: flex;
+  align-items: flex-end;
+}
+.Name h1 {
+  color: wheat;
+  font-family: bold;
+  font-size: 7rem;
+  letter-spacing: 0.5rem;
+  line-height: 7rem;
+}
+.Name p {
+  color: #fff;
+  font-family: Medium;
+  font-size: 5rem;
+}
+.Empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
+.Empty svg {
+  font-size: 10px;
+  color: white;
+}
+.Empty span {
+  color: wheat;
+  font-size: 1.1rem;
+  border: 1px dotted white;
+  border-radius: 100px;
+  padding: 10px 12px;
+}
+.Nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+/*
+  Medea Queries
+*/
+@media (min-width: 320px) and (max-width: 480px),
+  (min-width: 481px) and (max-width: 767px) and (orientation: landscape),
+  (min-width: 768px) and (max-width: 1024px) and (orientation: landscape),
+  (min-width: 768px) and (max-width: 1024px) {
+  .Showcase {
+    height: 100vh;
+    width: 100%;
+  }
+  .Name {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+  }
+  .Name p {
+    font-size: 4rem;
+  }
+  .Empty {
+    height: 5vh;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Showcase {
+    height: 100vh;
+    width: 100%;
+  }
+  .Name {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+  }
+  .Name h1 {
+    font-size: 8rem;
+  }
+  .Name p {
+    font-size: 6rem;
+  }
+  .Empty {
+    height: 15vh;
+  }
+}
