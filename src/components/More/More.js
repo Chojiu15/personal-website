@@ -1,7 +1,9 @@
 import React from "react";
 import classes from "./More.module.css";
 import { Link } from "react-router-dom";
-
+import POKE from "../../images/POKE.png";
+import SPACE from "../../images/SpaceX.png";
+import MYBURGER from "../../images/MYBURGER.png";
 const MoreWork = () => {
   return (
     <React.Fragment>
@@ -12,15 +14,15 @@ const MoreWork = () => {
           </div>
           <div className={classes.MoreWorkInside}>
             <div>
-              <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2f386663-94b3-443c-ae9d-218feab49817/Big_Sur_Safari_Mockup_%28Drag_and_drop_Update%29_%28Community%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210628%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210628T095134Z&X-Amz-Expires=86400&X-Amz-Signature=e6714336fe89235a5ce1c41b807f92d4bbbdf88aec2134ef8ddd25d1711a943e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Big_Sur_Safari_Mockup_%28Drag_and_drop_Update%29_%28Community%29.png%22"></img>
-              <h1>Hacker news</h1>
+              <img src={POKE}></img>
+              <h1>Poke Fight</h1>
               <p>
-                Hacker News is a social news website focusing on computer
-                science and entrepreneurship.
+                A fun game where users can choose Pokemon's and battle with each
+                other.
               </p>
             </div>
             <div>
-              <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a7e7c5e5-06e9-4dd4-bda8-4c9acb78d7cf/SpaceX.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210628%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210628T151204Z&X-Amz-Expires=86400&X-Amz-Signature=7b7ca2eaea2da094cf878b6bc25bba0fceb58db65bfe62e7c260a178455af671&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22SpaceX.png%22"></img>
+              <img src={SPACE}></img>
               <h1>Space X</h1>
               <p>
                 Space Exploration Technologies Corp. is an American aerospace
@@ -28,7 +30,7 @@ const MoreWork = () => {
               </p>
             </div>
             <div>
-              <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0604d876-78a6-44bf-a5b8-a4514e053c1b/MYBURGER.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210628%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210628T151636Z&X-Amz-Expires=86400&X-Amz-Signature=380ca3e041bb87c73c1ec83db259ad9099d9dc989a0e7335d3296a9f644bbb52&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22MYBURGER.png%22"></img>
+              <img src={MYBURGER}></img>
               <h1>My Burger App</h1>
               <p>
                 My burger is application that allows people to add and remove
