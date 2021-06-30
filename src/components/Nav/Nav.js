@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 
 import "./Nav.css";
 const Nav = () => {
@@ -26,10 +26,38 @@ const Nav = () => {
           <React.Fragment>
             <div className="NavShow">
               <div className="Linkss">
-                <Link to="/Home">Home </Link>
-                <Link to="/About">About</Link>
-                <Link to="/allwork">All Work</Link>
-                <Link to="/Contact">Contact</Link>
+                <Link
+                  onClick={() => {
+                    setToggle(false);
+                  }}
+                  to="/Home"
+                >
+                  Home
+                </Link>
+                <Link
+                  onClick={() => {
+                    setToggle(false);
+                  }}
+                  to="/About"
+                >
+                  About
+                </Link>
+                <Link
+                  onClick={() => {
+                    setToggle(false);
+                  }}
+                  to="/allwork"
+                >
+                  All Work
+                </Link>
+                <Link
+                  onClick={() => {
+                    setToggle(false);
+                  }}
+                  to="/Contact"
+                >
+                  Contact
+                </Link>
               </div>
             </div>
           </React.Fragment>
