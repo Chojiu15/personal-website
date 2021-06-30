@@ -60,13 +60,14 @@
   justify-content: center;
   align-items: center;
   font-family: Bold;
+  color: white !important;
 }
 .Linkss a {
   font-size: 5rem;
   font-weight: 700;
   margin: 2rem 0px;
   animation: links 2s linear;
-  color: white;
+  color: white !important;
   text-decoration: none !important;
 }
 @keyframes links {
