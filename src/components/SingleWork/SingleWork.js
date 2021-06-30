@@ -17,7 +17,7 @@ const SingleWork = () => {
       <div className={classes.SplitedWork}>
         <div className={classes.Container}>
           <div className={classes.SplitedWorkInside}>
-            <img src={newId.img}></img>
+                       <img src={`../${newId.img}`}></img>
           </div>
           <div className={classes.SplitedWorkDescription}>
             <div>
